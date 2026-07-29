@@ -382,11 +382,18 @@ footer {
         display:flex;
         flex-direction: column;
     }
+
+    #menu:checked ~ .logo{
+    display: none;
+    
+    }
+
     header{
 
         display: flex;
         flex-direction:row;
         gap:20px;
+        position: relative;
 
     }
 
