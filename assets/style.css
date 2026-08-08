@@ -2,6 +2,7 @@
 
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 
@@ -335,18 +336,13 @@ main {
     padding: 30px;
     margin: 1px 300px;
     border-radius: 15px;
-
+    
 }
 
 .so {
 
     text-align:  center;
-    padding: 20px;
-
-}
-
-.eu {
-
+    padding: 0px;
 
 }
 
@@ -455,7 +451,8 @@ footer {
     }
 
     #menu:checked ~ .logo{
-    display: none;
+
+        display: none;
     
     }
 
@@ -490,9 +487,30 @@ footer {
     .s {
 
         flex-direction: column;
+        margin: 1px 0;
+        width: auto;
+        gap: 25px;
 
     }
 
+    .sob {
+        padding: 1px 20px;
+    }
+
+    .card img {
+        width: 100%;
+        max-width: 220px;
+        min-width: 0;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+    }
+
+    .img img {
+        width: 100%;
+        max-width: 280px;
+        min-width: 0;
+    }
 
 
     .eu p {
